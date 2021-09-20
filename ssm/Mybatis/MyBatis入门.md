@@ -197,7 +197,7 @@ public class MyTest {
 
 
 
-**可能出现问题说明：Maven静态资源过滤问题,配置文件无法注册**
+**问题说明NullPointerException：Maven静态资源过滤问题,配置文件无法注册**
 
 xml或者properties文件放在java目录下而没有放在resources目录下，配置文件会无法注册。需要在pom文件中加上以下代码：
 
@@ -221,3 +221,4 @@ xml或者properties文件放在java目录下而没有放在resources目录下，
    </resource>
 </resources>
 ```
+
